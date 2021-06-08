@@ -24,9 +24,6 @@
     <ClCompile Include="util.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main%28bubble_]sort%29.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sort.h">

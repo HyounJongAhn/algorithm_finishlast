@@ -22,10 +22,10 @@ void selectoin_sort(element data[], int size, char trace)
 		data[i] = data[min];
 		data[min] = temp;
 
-		if (trace) {
+		/*if (trace) {
 			printf("\n%d단계 : ", i + 1);
 			printData("",data,size);
-		}
+		}*/
 	}
 }
 
@@ -36,9 +36,9 @@ void bubble_sort(element data[], int size, int dir, char trace)
 	element temp;
 	if (dir == INCREASING) {
 		for (i = size - 1; i > 0; i--) {
-			if (trace) {
+			/*if (trace) {
 				printf("\n%d단계 : ", size - i);
-			}
+			}*/
 			for (j = 0; j < i; j++) {
 				if (data[j] > data[i]) {
 					temp = data[j];
@@ -47,9 +47,9 @@ void bubble_sort(element data[], int size, int dir, char trace)
 
 
 				}
-				if (trace) {
+				/*if (trace) {
 					printData("", data, size);
-				}
+				}*/
 
 			}
 
@@ -57,9 +57,9 @@ void bubble_sort(element data[], int size, int dir, char trace)
 	}
 	else if (dir == DECREASING) {
 		for (i = size - 1; i > 0; i--) {
-			if (trace) {
+			/*if (trace) {
 				printf("\n%d단계 : ", size - i);
-			}
+			}*/
 			for (j = 0; j < i; j++) {
 				if (data[j] < data[i]) {
 					temp = data[j];
@@ -68,9 +68,9 @@ void bubble_sort(element data[], int size, int dir, char trace)
 
 
 				}
-				if (trace) {
+				/*if (trace) {
 					printData("", data, size);
-				}
+				}*/
 
 			}
 
@@ -92,10 +92,10 @@ void insertion_sort(element data[], int size, int dir, char trace) {
 			}
 			data[j + 1] = key;
 
-			if (trace) {
+			/*if (trace) {
 				printf("\n%d단계 : ", i + 1);
 				printData("", data, size);
-			}
+			}*/
 		}
 	}
 	else if (dir == DECREASING) {
@@ -107,10 +107,10 @@ void insertion_sort(element data[], int size, int dir, char trace) {
 			}
 			data[j + 1] = key;
 
-			if (trace) {
+			/*if (trace) {
 				printf("\n%d단계 : ", i + 1);
 				printData("", data, size);
-			}
+			}*/
 		}
 	}
 
