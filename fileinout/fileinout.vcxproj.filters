@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\2021_s1_algorithm-master\2021_s1_algorithm\week2.c">
+    <ClCompile Include="main(file.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

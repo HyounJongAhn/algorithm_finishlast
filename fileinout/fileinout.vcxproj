@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{F35F02A0-4AB4-4282-9363-CDD4CABFF6EB}</ProjectGuid>
-    <RootNamespace>My2021s1algorithm</RootNamespace>
+    <ProjectGuid>{ECB8D6F9-0BD0-4E88-8486-5F4552B200A9}</ProjectGuid>
+    <RootNamespace>fileinout</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,7 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\2021_s1_algorithm-master\2021_s1_algorithm\week2.c" />
+    <ClCompile Include="main(file.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
